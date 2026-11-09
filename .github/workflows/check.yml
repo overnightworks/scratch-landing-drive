@@ -1,0 +1,14 @@
+name: check
+on:
+  pull_request:
+  merge_group:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Evidence
+        env:
+          EVENT: ${{ toJson(github.event) }}
+        run: |
+          echo "$EVENT"
+          echo "event_name=${{ github.event_name }} sha=${{ github.sha }} ref=${{ github.ref }}"
