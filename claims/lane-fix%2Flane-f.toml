@@ -1,7 +1,0 @@
-claim_id = "dc87e890c6c94d789a987163307927e0"
-agent = "Claude f0f93976-3575-4ba8-ab7c-4907c85ae738"
-role = "builder"
-base = "79e377cb889edb9bd4b96884be09f977024a07ba"
-branch = "fix/lane-f"
-scope = ["file-f.txt"]
-opened_commit = "af7410563e790fa4a5dda8e86a44a204ef4d574d"
