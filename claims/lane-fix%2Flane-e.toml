@@ -1,0 +1,7 @@
+claim_id = "07387eb42da94abf8da0fdbb10f463a0"
+agent = "Claude f0f93976-3575-4ba8-ab7c-4907c85ae738"
+role = "builder"
+base = "9ae67f7982b815a9cd998cce363a0907db3792ab"
+branch = "fix/lane-e"
+scope = [".github/workflows/check.yml", "file-e.txt"]
+opened_commit = "ff442a8678b4e5fab7e65902abffa139be1fecbb"
